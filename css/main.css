@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	font-family: Roboto, Verdana, sans-serif; 
+	background: #EBD6CC;
+}
+
+li {
+	list-style-type: none;
+}
+
+#wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+
+a {
+	text-shadow: 2px 2px 2px #888;
+}
+
+  /***********/
+ /****NAV****/
+/***********/
+nav {
+	background: #7A2900;
+	margin: 0;
+	box-shadow: 0px 5px 5px #888;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+nav, ul {
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	background: ;
+	text-transform: uppercase;
+}
+
+nav a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	width: 134px;
+	height: 58px;
+	line-height: 58px;
+	-moz-transition: all 0.5s ease 0s; 
+	-webkit-transition: all 0.5s ease 0s; 
+	-ms-transition: all 0.5s ease 0s; 
+	-o-transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s;
+}
+
+nav a:hover {
+	background: #3D1400;
+}
+
+  /************/
+ /****FORM****/
+/************/
+
+form {
+	margin-top: 50px;
+}
+
+input, #submit {
+	padding: 20px 10px;
+	width: 189px;
+}
+
+input {
+	border: 1px solid #7A2900;
+}
+
+#submit {
+	display: block;
+	margin: 30px auto;
+	background: #7A2900;
+	border: none;
+	color: #fff;
+	-moz-transition: all 0.5s ease 0s; 
+	-webkit-transition: all 0.5s ease 0s; 
+	-ms-transition: all 0.5s ease 0s; 
+	-o-transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s;
+}
+
+#submit:hover {
+	background: #3D1400;
+	cursor: pointer;
+}
+
+  /************/
+ /****LIST****/
+/************/
+
+.list-item, #list-item li {
+	width: 100%;
+	border: 1px solid #7A2900;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 20px 10px;
+	background: #D6AD99;
+	box-shadow: 0px 0px 10px #888;
+}
+
+#list-item {
+	padding: 0;
+	text-align: left;
+}
+
+.name {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.name a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.info {
+	float: right;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 3px #888;
+}
+
+.remove {
+	background: none;
+	color: #7A2900;
+	border: 1px solid #7A2900;
+	border-radius: 5px;
+	margin-top: 15px;
+	cursor: pointer;
+}

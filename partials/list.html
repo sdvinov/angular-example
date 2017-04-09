@@ -1,0 +1,5 @@
+<ul id="list-item">
+	<li ng-repeat="i in cupcakesArray track by $index" id="list-item">
+		<span class="name"><a href="#/details/{{$index}}">{{ i.name }}</a></span> <span class="flavor">({{ i.flavor }} flavor)</span> <span class="info">{{ i.calories }} cal. for <span class="price">${{ i.price }}</span></span><br/> <button class="remove" ng-click="removeCupcake($index)">Add To Cart (gg)</button>
+	</li>
+</ul>
