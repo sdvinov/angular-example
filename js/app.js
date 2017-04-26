@@ -26,7 +26,7 @@ app.controller('formCtrl', function($scope,cupcakeSrv){
 	$scope.addCupcake = function() {
 		cupcakeSrv.addCupcake($scope.cupcakes);
 		$scope.cupcakes = '';
-		document.location.hash = '#/list';
+		document.location.hash = '#!/list';
 	}
 });
 
